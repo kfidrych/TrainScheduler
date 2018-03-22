@@ -1,5 +1,22 @@
 .jumbotron {
-    background-color: #0d6923;
-    color: lightgrey;
+    /* background-color: rgba(13, 105, 35, 0.75); */
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #337ab7;
     text-align: center;
+}
+
+.jumbotron p {
+    font-weight: bold;
+}
+
+body {
+    background-image: url("../images/background.jpeg");
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel, input.form-control {
+    background-color: rgba(255, 255, 255, 0.4);
 }
